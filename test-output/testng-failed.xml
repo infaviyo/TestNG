@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.mobile.Mobile">
+        <methods>
+          <include name="StartingTime"/>
+          <include name="endtime"/>
+          <include name="mobile"/>
+          <include name="Workbook"/>
+          <include name="WindowHandle"/>
+          <include name="search"/>
+          <include name="cancel"/>
+          <include name="ScreenShot"/>
+          <include name="BrowserLunch"/>
+          <include name="BrowserQuit"/>
+        </methods>
+      </class> <!-- org.mobile.Mobile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

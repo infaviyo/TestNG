@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-16T12:23:00Z" name="Suite" finished-at="2022-07-16T12:23:08Z" duration-ms="7674">
+    <groups>
+      <group name="smoke">
+        <method signature="Mobile.ScreenShot()[pri:6, instance:org.mobile.Mobile@50de186c]" name="ScreenShot" class="org.mobile.Mobile"/>
+        <method signature="Mobile.WindowHandle()[pri:5, instance:org.mobile.Mobile@50de186c]" name="WindowHandle" class="org.mobile.Mobile"/>
+        <method signature="Mobile.Workbook()[pri:3, instance:org.mobile.Mobile@50de186c]" name="Workbook" class="org.mobile.Mobile"/>
+        <method signature="Mobile.cancel()[pri:1, instance:org.mobile.Mobile@50de186c]" name="cancel" class="org.mobile.Mobile"/>
+        <method signature="Mobile.mobile()[pri:4, instance:org.mobile.Mobile@50de186c]" name="mobile" class="org.mobile.Mobile"/>
+        <method signature="Mobile.search(java.lang.String)[pri:2, instance:org.mobile.Mobile@50de186c]" name="search" class="org.mobile.Mobile"/>
+        <method signature="TV.ScreenShot()[pri:6, instance:org.mobile.TV@3f57bcad]" name="ScreenShot" class="org.mobile.TV"/>
+        <method signature="TV.Tv()[pri:4, instance:org.mobile.TV@3f57bcad]" name="Tv" class="org.mobile.TV"/>
+        <method signature="TV.WindowHandle()[pri:5, instance:org.mobile.TV@3f57bcad]" name="WindowHandle" class="org.mobile.TV"/>
+        <method signature="TV.Workbook()[pri:3, instance:org.mobile.TV@3f57bcad]" name="Workbook" class="org.mobile.TV"/>
+        <method signature="TV.cancel()[pri:1, instance:org.mobile.TV@3f57bcad]" name="cancel" class="org.mobile.TV"/>
+        <method signature="TV.search(java.lang.String)[pri:2, instance:org.mobile.TV@3f57bcad]" name="search" class="org.mobile.TV"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-07-16T12:23:00Z" name="Test" finished-at="2022-07-16T12:23:08Z" duration-ms="7674">
+      <class name="org.mobile.TV">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:org.mobile.TV@3f57bcad]" started-at="2022-07-16T12:23:04Z" name="BrowserLunch" finished-at="2022-07-16T12:23:08Z" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="cancel()[pri:1, instance:org.mobile.TV@3f57bcad]" started-at="2022-07-16T12:23:08Z" name="cancel" finished-at="2022-07-16T12:23:08Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method is-config="true" signature="StartingTime()[pri:0, instance:org.mobile.TV@3f57bcad]" started-at="2022-07-16T12:23:08Z" name="StartingTime" finished-at="2022-07-16T12:23:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartingTime -->
+        <test-method is-config="true" signature="endtime()[pri:0, instance:org.mobile.TV@3f57bcad]" started-at="2022-07-16T12:23:08Z" name="endtime" finished-at="2022-07-16T12:23:08Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtime -->
+      </class> <!-- org.mobile.TV -->
+      <class name="org.mobile.Mobile">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:org.mobile.Mobile@50de186c]" started-at="2022-07-16T12:23:00Z" name="BrowserLunch" finished-at="2022-07-16T12:23:04Z" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="cancel()[pri:1, instance:org.mobile.Mobile@50de186c]" started-at="2022-07-16T12:23:04Z" name="cancel" finished-at="2022-07-16T12:23:04Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method is-config="true" signature="StartingTime()[pri:0, instance:org.mobile.Mobile@50de186c]" started-at="2022-07-16T12:23:04Z" name="StartingTime" finished-at="2022-07-16T12:23:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartingTime -->
+        <test-method is-config="true" signature="endtime()[pri:0, instance:org.mobile.Mobile@50de186c]" started-at="2022-07-16T12:23:04Z" name="endtime" finished-at="2022-07-16T12:23:04Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtime -->
+      </class> <!-- org.mobile.Mobile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
